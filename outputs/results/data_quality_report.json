@@ -1,0 +1,30 @@
+{
+  "raw_rows": 14042,
+  "exact_duplicate_rows_removed": 42,
+  "conflicting_user_ids_removed": 0,
+  "missing_values": {
+    "avg_latency_ms": 152
+  },
+  "range_checks": {
+    "negative_session_time": 0,
+    "clicks_gt_impressions": 0,
+    "invalid_variant": 0,
+    "invalid_churn_flag": 0
+  },
+  "assignment_mismatches": 0,
+  "srm": {
+    "n_A": 6949,
+    "n_B": 7051,
+    "share_B": 0.5036428571428572,
+    "chi2": 0.7431428571428571,
+    "p_value": 0.3886559651909851,
+    "srm_detected": false
+  },
+  "srm_days_flagged": 0,
+  "balance_smd": {
+    "pre_avg_session_min_30d": -0.01040091415980051,
+    "mobile_share": -0.008647508782181275,
+    "enroll_day": 0.004465205035162394
+  },
+  "clean_rows": 14000
+}

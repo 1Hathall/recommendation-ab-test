@@ -1,0 +1,20 @@
+{
+  "alpha": 0.05,
+  "power": 0.8,
+  "baseline_mean_min": 20.0,
+  "baseline_sd_min": 16.0,
+  "mde_rel": 0.05,
+  "mde_abs_min": 1.0,
+  "n_per_group_required": 4019,
+  "n_total_required": 8038,
+  "n_per_group_required_if_cuped_rho_0.6": 2572,
+  "n_per_group_to_detect_hypothesized_15pct": 447,
+  "daily_new_users": 1000,
+  "raw_days_needed": 9,
+  "planned_duration_days": 14,
+  "planned_n_per_group": 7000,
+  "mde_at_planned_n_min": 0.7576869334632622,
+  "mde_at_planned_n_rel": 0.03788434667316311,
+  "mde_if_only_one_week_min": 1.0715311373366263,
+  "power_at_planned_n_for_mde": 0.9588580951889083
+}

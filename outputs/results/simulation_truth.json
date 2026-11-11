@@ -1,0 +1,12 @@
+{
+  "note": "Ground truth of the simulation - unknown to an analyst in a real experiment.",
+  "true_lift_rel": 0.08,
+  "true_effect_min_population": 1.600602957917299,
+  "true_ctr_effect_rel": 0.2,
+  "true_items_effect_rel": 0.05,
+  "true_churn_effect_abs": -0.002,
+  "true_latency_effect_ms": 12.0,
+  "novelty_boost": 0.5,
+  "injected_duplicate_rows": 42,
+  "injected_missing_latency": 152
+}
