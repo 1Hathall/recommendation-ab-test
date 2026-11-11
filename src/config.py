@@ -16,6 +16,8 @@ CLEAN_DATA_PATH = DATA_DIR / "clean_experiment_data.csv"
 CONFIG = {
     "project": "Personalized Recommendations A/B Test",
     "project_ar": "اختبار A/B لنموذج التوصيات المخصصة",
+    "team": ["Hathal Alsubaie", "Nawaf Alsayari", "Abdulelah Alharbi", "Sanad Alkhamali"],
+    "team_ar": ["هذال السبيعي", "نواف السياري", "عبد الإله الحربي", "سند الخمعلي"],
 
     # ---------------- Design (known BEFORE the experiment) ----------------
     "alpha": 0.05,                    # significance level (two-sided)

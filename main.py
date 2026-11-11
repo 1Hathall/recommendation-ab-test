@@ -20,6 +20,7 @@ def main() -> None:
         sys.stdout.reconfigure(encoding="utf-8")
     ensure_dirs()
     print(f"=== {CONFIG['project']} ===")
+    print(f"Team: {', '.join(CONFIG['team'])}")
 
     print("\n[1/6] Power analysis & duration")
     power = power_analysis.run()

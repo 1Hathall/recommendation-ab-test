@@ -37,6 +37,8 @@ def run(power: dict, quality: dict, res: dict) -> str:
 
 # تقرير التجربة: {c['project_ar']}
 
+**الفريق:** {'، '.join(c['team_ar'])}
+
 > **البيانات محاكاة** ببذرة ثابتة ({c['seed']})، والأثر الحقيقي المحدد في المحاكاة: +{truth['true_lift_rel']:.0%}.
 
 ## القرار: **{dec['decision']}**
